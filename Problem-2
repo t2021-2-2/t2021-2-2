@@ -1,0 +1,11 @@
+// java language
+
+Class Sample {
+Public static void main (String[]args){
+Int n=4;
+for(int i=1;i<=n*2;i+=2){
+System.out.print(i+" ,");
+}
+}
+}
+
