@@ -1,0 +1,52 @@
+//java language//
+Class Add{
+double a;
+double b;
+Add(double a,double b){
+this.a=a;
+this.b=b;
+System.out.println(a+b);
+}
+}
+Class Sub{
+double a;
+double b;
+Sub(double a,double b){
+this.a=a;
+this.b=b;
+System.out.println(a-b);
+}
+}
+Class Mul{
+double a;
+double b;
+Mul(double a,double b){
+this.a=a;
+this.b=b;
+System.out.println(a*b);
+}
+}
+Class Dev{
+double a;
+double b;
+Dev(double a,double b){
+this.a=a;
+this.b=b;
+System.out.println(a/b);
+}
+}
+Class main{
+Public static void main(String [] args){
+Add s=new Add(Double.parseDouble("10.2"),Double.parseDouble("4.2"));
+Sub s1=new Sub(Double.parseDouble("10.2"),Double.parseDouble("4.2"));
+Mul s2=new Mul(Double.parseDouble("10.2"),Double.parseDouble("4.2"));
+Dev s3=new Dev(Double.parseDouble("10.2"),Double.parseDouble("4.2"));
+}
+}
+
+
+
+
+
+
+
